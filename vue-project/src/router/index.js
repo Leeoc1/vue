@@ -12,6 +12,18 @@ import AttributeView from "../views/AttributeView.vue";
 import ButtonView from "../views/ButtonView.vue";
 import ClassView from "../views/ClassView.vue";
 import ClassView2 from "../views/ClassView2.vue";
+import StyleView from "@/views/StyleView.vue";
+import StyleView2 from "@/views/StyleView2.vue";
+import ListView from "@/views/ListView.vue";
+import VifView from "@/views/VifView.vue";
+import VshowView from "@/views/VshowView.vue";
+import EventClick from "@/views/EventClick.vue";
+import EventChange from "@/views/EventChange.vue";
+import ComputedView from "@/views/ComputedView.vue";
+import WatchView from "@/views/WatchView.vue";
+import Api_List from "@/views/Api_List.vue";
+import NestedComponent from "@/views/NestedComponent.vue";
+import ParentCompo from "@/views/ParentCompo.vue";
 
 const routes = [
   {
@@ -87,6 +99,66 @@ const routes = [
     path: "/class2",
     name: "Class2",
     component: ClassView2,
+  },
+  {
+    path: "/style",
+    name: "Style",
+    component: StyleView,
+  },
+  {
+    path: "/style2",
+    name: "Style2",
+    component: StyleView2,
+  },
+  {
+    path: "/list",
+    name: "List",
+    component: ListView,
+  },
+  {
+    path: "/v-if",
+    name: "v-if",
+    component: VifView,
+  },
+  {
+    path: "/v-show",
+    name: "v-show",
+    component: VshowView,
+  },
+  {
+    path: "/@click",
+    name: "@Click",
+    component: EventClick,
+  },
+  {
+    path: "/@change",
+    name: "@change",
+    component: EventChange,
+  },
+  {
+    path: "/computed",
+    name: "computed",
+    component: ComputedView,
+  },
+  {
+    path: "/watch",
+    name: "watch",
+    component: WatchView,
+  },
+  {
+    path: "/Api",
+    name: "Api",
+    component: Api_List,
+  },
+  {
+    path: "/compo",
+    name: "compo",
+    component: NestedComponent,
+  },
+  {
+    path: "/parent",
+    name: "parent",
+    component: ParentCompo,
   },
 ];
 

@@ -17,6 +17,20 @@
       <router-link to="/button">Button</router-link> |
       <router-link to="/class">Class</router-link> |
       <router-link to="/class2">Class2</router-link> |
+      <br />
+      <router-link to="/style">Style</router-link> |
+      <router-link to="/style2">Style2</router-link> |
+      <router-link to="/list">List</router-link> |
+      <router-link to="/v-if">v-if</router-link> |
+      <router-link to="/v-show">v-show</router-link> |
+      <router-link to="/@click">@Click</router-link> |
+      <router-link to="/@change">@Change</router-link> |
+      <router-link to="/computed">computed</router-link> |
+      <router-link to="/watch">watch</router-link> |
+      <br />
+      <router-link to="/Api">Api</router-link> |
+      <router-link to="/compo">component</router-link> |
+      <router-link to="/parent">parent</router-link> |
     </nav>
     <router-view />
   </div>
