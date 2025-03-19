@@ -24,6 +24,22 @@ import WatchView from "@/views/WatchView.vue";
 import Api_List from "@/views/Api_List.vue";
 import NestedComponent from "@/views/NestedComponent.vue";
 import ParentCompo from "@/views/ParentCompo.vue";
+import ParentCompo2 from "@/views/ParentCompo2.vue";
+import ParentCompo3 from "@/views/ParentCompo3.vue";
+import ParentCompo4 from "@/views/ParentCompo4.vue";
+import ParentCompo5 from "@/views/ParentCompo5.vue";
+import SlotUseModalLayout from "@/views/SlotUseModalLayout.vue";
+import ProvideInject from "@/views/ProvideInject.vue";
+import CalculatorView from "@/views/CalculatorView.vue";
+import CompositionApi from "@/views/CompositionApi.vue";
+import CompositionApi2 from "@/views/CompositionApi2.vue";
+import CompositionAPI4 from "@/views/CompositionAPI4.vue";
+import APIProvide from "@/views/APIProvide.vue";
+import MixinsView from "@/views/MixinsView.vue";
+import VfoucsView from "@/views/VfoucsView.vue";
+import VpinView from "@/views/VpinView.vue";
+import PluginsView from "@/views/PluginsView.vue";
+import StoreAccess from "@/views/StoreAccess.vue";
 
 const routes = [
   {
@@ -159,6 +175,86 @@ const routes = [
     path: "/parent",
     name: "parent",
     component: ParentCompo,
+  },
+  {
+    path: "/parent2",
+    name: "parent2",
+    component: ParentCompo2,
+  },
+  {
+    path: "/parent3",
+    name: "parent3",
+    component: ParentCompo3,
+  },
+  {
+    path: "/parent4",
+    name: "parent4",
+    component: ParentCompo4,
+  },
+  {
+    path: "/parent5",
+    name: "parent5",
+    component: ParentCompo5,
+  },
+  {
+    path: "/SlotPopUp",
+    name: "SlotPopUp",
+    component: SlotUseModalLayout,
+  },
+  {
+    path: "/ProvideInject",
+    name: "ProvideInject",
+    component: ProvideInject,
+  },
+  {
+    path: "/Calculator",
+    name: "Calculator",
+    component: CalculatorView,
+  },
+  {
+    path: "/CompositionApi",
+    name: "CompositionApi",
+    component: CompositionApi,
+  },
+  {
+    path: "/CompositionApi2",
+    name: "CompositionApi2",
+    component: CompositionApi2,
+  },
+  {
+    path: "/CompositionAPI4",
+    name: "CompositionAPI4",
+    component: CompositionAPI4,
+  },
+  {
+    path: "/APIProvide",
+    name: "APIProvide",
+    component: APIProvide,
+  },
+  {
+    path: "/MixinsView",
+    name: "MixinsView",
+    component: MixinsView,
+  },
+  {
+    path: "/Vfoucs",
+    name: "Vfoucs",
+    component: VfoucsView,
+  },
+  {
+    path: "/VpinView",
+    name: "VpinView",
+    component: VpinView,
+  },
+  {
+    path: "/PluginsView",
+    name: "PluginsView",
+    component: PluginsView,
+  },
+  {
+    path: "/StoreAccess",
+    name: "StoreAccess",
+    component: StoreAccess,
   },
 ];
 

@@ -31,7 +31,27 @@
       <router-link to="/Api">Api</router-link> |
       <router-link to="/compo">component</router-link> |
       <router-link to="/parent">parent</router-link> |
+      <router-link to="/parent2">parent2</router-link> |
+      <router-link to="/parent3">parent3</router-link> |
+      <router-link to="/parent4">parent4</router-link> |
+      <router-link to="/parent5">parent5</router-link> |
+      <router-link to="/SlotPopUp">SlotPopUp</router-link> |
+      <br />
+      <router-link to="/ProvideInject">ProvideInject</router-link> |
+      <router-link to="/Calculator">Calculator</router-link> |
+      <router-link to="/CompositionApi">CompositionApi</router-link> |
+      <router-link to="/CompositionApi2">CompositionApi2</router-link> |
+      <br />
+      <router-link to="/CompositionAPI4">CompositionAPI4</router-link> |
+      <router-link to="/APIProvide">APIProvide</router-link> |
+      <router-link to="/MixinsView">MixinsView</router-link> |
+      <router-link to="/Vfoucs">Vfoucs</router-link> |
+      <router-link to="/VpinView">VpinView</router-link> |
+      <br />
+      <router-link to="/PluginsView">PluginsView</router-link> |
+      <router-link to="/StoreAccess">StoreAccess</router-link> |
     </nav>
+
     <router-view />
   </div>
 </template>
