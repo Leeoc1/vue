@@ -40,6 +40,9 @@ import VfoucsView from "@/views/VfoucsView.vue";
 import VpinView from "@/views/VpinView.vue";
 import PluginsView from "@/views/PluginsView.vue";
 import StoreAccess from "@/views/StoreAccess.vue";
+import KakaoLogin from "@/views/KakaoLogin.vue";
+import NaverLogin from "@/views/NaverLogin.vue";
+import GoogleLogin from "@/views/GoogleLogin.vue";
 
 const routes = [
   {
@@ -255,6 +258,21 @@ const routes = [
     path: "/StoreAccess",
     name: "StoreAccess",
     component: StoreAccess,
+  },
+  {
+    path: "/kakaologin",
+    name: "kakaologin",
+    component: KakaoLogin,
+  },
+  {
+    path: "/naverlogin",
+    name: "naverlogin",
+    component: NaverLogin,
+  },
+  {
+    path: "/googlelogin",
+    name: "googlelogin",
+    component: GoogleLogin,
   },
 ];
 

@@ -50,6 +50,9 @@
       <br />
       <router-link to="/PluginsView">PluginsView</router-link> |
       <router-link to="/StoreAccess">StoreAccess</router-link> |
+      <router-link to="/kakaologin">kakaologin</router-link> |
+      <router-link to="/naverlogin">NaverLogin</router-link> |
+      <router-link to="/googlelogin">googlelogin</router-link> |
     </nav>
 
     <router-view />
